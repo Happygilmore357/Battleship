@@ -1,0 +1,18 @@
+BATTLESHIP - UNITY GAME IDEA
+
+each tile has a score
+-has adjacent tile with hit increases score
+-all surounding tiles are untouched increases score by small amount (so as to not outweigh the above)
+-surrounded by miss tiles gives perm 0 score
+
+will target tile with highest score first
+
+easy medium hard vary the wight given to the score increments, moving closer to randomness with each decrease in skill level
+
+just click where you want to hit
+
+drag drop or click drag to draw your ships
+
+computer will place ships useing similar algorithm to targeting tiles. but reverse (favoring empty areas)
+
+maybe use machine learning at some point to define optimal strategy by playing itself
